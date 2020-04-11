@@ -97,7 +97,7 @@ literal =  [
   
   #result [1][:name] = "Joelle van Dyne (PGOAT)"
   
-  literal[1] = 
+  literal[1][:name] = "Joelle van Dyne (PGOAT)" 
   
   result[1]= PGOAT
   
