@@ -89,9 +89,9 @@ def aoh_update(aoh, row, key, new_value)
   
   
   
-  result [1][:name] = "Joelle van Dyne (PGOAT)"
+  #result [1][:name] = "Joelle van Dyne (PGOAT)"
   
-  #result[1]= PGOAT
+  result[1][:name]= PGOAT
   
   #result = [DON_G, PGOAT, PAT_M, KATE_G, BRUCE_G]
   
