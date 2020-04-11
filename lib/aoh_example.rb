@@ -99,7 +99,7 @@ literal =  [
   
   literal[1][:name] = "Joelle van Dyne (PGOAT)" 
   
-  result[1]= PGOAT
+  result[1] = PGOAT
   
   
   result = [DON_G, PGOAT, PAT_M, KATE_G, BRUCE_G]
