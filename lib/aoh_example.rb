@@ -85,7 +85,7 @@ def aoh_update(aoh, row, key, new_value)
   
   #expect(result[1][:name]).to eq("Joelle van Dyne (PGOAT)")
   
-result = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
+assembled_aoh = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
 literal =  [
     { name:  "Don Gately", occupation: "Live-in Staff" },
     { name: "Joelle van Dyne", occupation: "Radio Personality"},
@@ -99,7 +99,7 @@ literal =  [
   
   literal[1][:name] = "Joelle van Dyne (PGOAT)" 
   
-  result[1] = PGOAT
+  assembled_aoh[1] = PGOAT
   
   
   result = [DON_G, PGOAT, PAT_M, KATE_G, BRUCE_G]
