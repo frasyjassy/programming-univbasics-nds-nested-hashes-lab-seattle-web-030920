@@ -103,6 +103,13 @@ literal =  [
   
   
   result = [DON_G, PGOAT, PAT_M, KATE_G, BRUCE_G]
+  literal =  [
+    { name:  "Don Gately", occupation: "Live-in Staff" },
+    { name: "Joelle van Dyne (PGOAT)", occupation: "Radio Personality"},
+    { name:  "Pat Monteseian", occupation: "Staff" },
+    { name:  "Kate Gompert", occupation: "None" },
+    { name:  "Bruce Green", occupation: "Fan of Mildred" } 
+  ]
   
   #result = aoh_update(local_copy_of_aoh, 1, :name, "Joelle van Dyne (PGOAT)")
   
