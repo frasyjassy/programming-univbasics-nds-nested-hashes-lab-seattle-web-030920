@@ -97,6 +97,8 @@ literal =  [
   
   #result [1][:name] = "Joelle van Dyne (PGOAT)"
   
+  literal[1] = 
+  
   result[1]= PGOAT
   
   
