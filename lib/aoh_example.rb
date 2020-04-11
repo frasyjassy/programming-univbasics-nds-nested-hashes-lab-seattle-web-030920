@@ -91,7 +91,7 @@ result = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
   
   #result [1][:name] = "Joelle van Dyne (PGOAT)"
   
-  result[1]literal[:name]= PGOAT
+  result[1]= PGOAT
   
   result = [DON_G, PGOAT, PAT_M, KATE_G, BRUCE_G]
   
